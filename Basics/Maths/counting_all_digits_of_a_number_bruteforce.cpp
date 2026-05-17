@@ -1,12 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-int num, count;
+int num, count=0;
 cout << "enter a number : ";
 cin >> num;
 while (num!=0){
-    count=num%10;
-    cout<< count<<endl;
+    int rem=num%10;
+    count=count+1;
     num=num/10;
 }
+cout<<count;
 }
