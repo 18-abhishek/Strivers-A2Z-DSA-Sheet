@@ -5,7 +5,6 @@ int num, count=0;
 cout << "enter a number : ";
 cin >> num;
 while (num!=0){
-    int rem=num%10;
     count=count+1;
     num=num/10;
 }
