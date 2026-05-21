@@ -1,7 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int a;
-    
+    int a[]={10,5,10,15,10,5};
+    for(int i=0;i<6;i++){
+       
+    }   
 
 }
