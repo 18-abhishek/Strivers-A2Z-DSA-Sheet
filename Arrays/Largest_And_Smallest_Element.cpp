@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int Largest_Element(int arr[],int n){
+void Largest_Element(int arr[],int n){
     int max = arr[0];
     for (int i=0; i<n; i++){
         if(max<arr[i]){
@@ -11,7 +11,7 @@ int Largest_Element(int arr[],int n){
     cout << "largest element of the array : "<< max<<endl;
 }
 
-int Smallest_Element(int arr[],int n){
+void Smallest_Element(int arr[],int n){
     int min = arr[0];
     for (int i=0; i<n; i++){
         if(min>arr[i]){
