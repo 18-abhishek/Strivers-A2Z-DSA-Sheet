@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int a[] = {10,5,10,15,10,5};
+    int a;
     
 
 }
