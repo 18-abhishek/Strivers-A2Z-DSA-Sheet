@@ -38,4 +38,5 @@ int main (){
     int n1 = 4;
     Second_Smallest_Element(arr1,n1);
     Second_largest_Element(arr1,n1);
+    return 0;
 }
