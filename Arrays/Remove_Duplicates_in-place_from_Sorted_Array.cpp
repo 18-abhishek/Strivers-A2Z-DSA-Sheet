@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void remove_duplicate(vector<int>arr){
+void remove_duplicate(vector<int>& arr){
     int n = arr.size();
     for(int i=1;i<=n;i++){
         if (arr[i-1]<arr[i]){
